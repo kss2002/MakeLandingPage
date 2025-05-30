@@ -2,9 +2,9 @@ export default function Home() {
   return (
     <>
       <main>
-        <h1 className="text-3xl font-bold underline">
+        <h2 className="text-3xl font-bold underline">
           Welcome to the Make Landing Page!
-        </h1>
+        </h2>
         <p className="mt-4">
           This is a simple landing page built with Next.js.
         </p>
