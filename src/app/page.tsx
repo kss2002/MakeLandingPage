@@ -1,24 +1,15 @@
+import { HeroSection } from '@/components/sections/HeroSection';
+import { PricingSection } from '@/components/sections/PricingSection';
+import { FeaturesSection } from '@/components/sections/FeaturesSection';
+import { ContactSection } from '@/components/sections/ContactSection';
+
 export default function Home() {
   return (
-    <>
-      <main>
-        <div className="bg-blue-400">
-          <h2 className="text-3xl font-bold underline">
-            Welcome to the Make Landing Page!
-          </h2>
-        </div>
-        <p className="mt-4">
-          This is a simple landing page built with Next.js.
-        </p>
-        <p className="mt-2">Feel free to explore and customize it!</p>
-        <p className="mt-2">
-          You can start building your application from here.
-        </p>
-        <p className="mt-2">
-          Check out the code in the <code>src/app/page.tsx</code> file.
-        </p>
-        <p className="mt-2">Happy coding!</p>
-      </main>
-    </>
+    <main className="min-h-screen">
+      <HeroSection />
+      <PricingSection />
+      <FeaturesSection />
+      <ContactSection />
+    </main>
   );
 }
