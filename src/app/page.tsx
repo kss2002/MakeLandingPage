@@ -5,11 +5,13 @@ import { ContactSection } from '@/components/sections/ContactSection';
 
 export default function Home() {
   return (
-    <main className="min-h-screen">
-      <HeroSection />
-      <PricingSection />
-      <FeaturesSection />
-      <ContactSection />
-    </main>
+    <>
+      <main className="min-h-screen">
+        <HeroSection />
+        <PricingSection />
+        <FeaturesSection />
+        <ContactSection />
+      </main>
+    </>
   );
 }
