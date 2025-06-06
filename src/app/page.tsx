@@ -1,6 +1,8 @@
 import { HeroSection } from '@/components/sections/HeroSection';
-import { PricingSection } from '@/components/sections/PricingSection';
 import { FeaturesSection } from '@/components/sections/FeaturesSection';
+import { PricingSection } from '@/components/sections/PricingSection';
+import { TimeLimitSection } from '@/components/sections/TimeLimitSection';
+import { ReviewsSection } from '@/components/sections/ReviewsSection';
 import { ContactSection } from '@/components/sections/ContactSection';
 
 export default function Home() {
@@ -8,8 +10,10 @@ export default function Home() {
     <>
       <main className="min-h-screen">
         <HeroSection />
-        <PricingSection />
         <FeaturesSection />
+        <PricingSection />
+        <TimeLimitSection />
+        <ReviewsSection />
         <ContactSection />
       </main>
     </>
