@@ -2,6 +2,8 @@
 
 next.js로 빌딩되어 있으며, vercel로 배포됩니다.
 
+> https://vercel.com/home
+
 ## Getting Started
 
 First, run the development server:
