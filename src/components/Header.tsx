@@ -2,6 +2,7 @@ import { Button } from '@/components/ui/Button';
 import { MessageCircle } from 'lucide-react';
 
 export function Header() {
+  // Header 컴포넌트는 랜딩 페이지의 상단에 위치하며, 로고와 문의하기 버튼을 포함합니다.
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-white/80 backdrop-blur-sm border-b">
       <div className="container mx-auto px-4">
