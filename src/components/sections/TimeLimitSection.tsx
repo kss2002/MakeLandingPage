@@ -1,49 +1,9 @@
-'use client';
+"use client";
 
-import { Button } from '@/components/ui/Button';
-import { Clock, Users, ArrowRight } from 'lucide-react';
-import { useState, useEffect } from 'react';
+import { Button } from "@/components/ui/Button";
+import { Clock, Users, ArrowRight } from "lucide-react";
 
 export function TimeLimitSection() {
-  const [timeLeft, setTimeLeft] = useState({
-    hours: 23,
-    minutes: 59,
-    seconds: 59,
-  });
-
-  useEffect(() => {
-    const timer = setInterval(() => {
-      setTimeLeft((prevTime) => {
-        let { hours, minutes, seconds } = prevTime;
-
-        if (seconds > 0) {
-          seconds -= 1;
-        } else {
-          seconds = 59;
-          if (minutes > 0) {
-            minutes -= 1;
-          } else {
-            minutes = 59;
-            if (hours > 0) {
-              hours -= 1;
-            } else {
-              // 타이머가 0이 되면 리셋
-              hours = 23;
-              minutes = 59;
-              seconds = 59;
-            }
-          }
-        }
-
-        return { hours, minutes, seconds };
-      });
-    }, 1000);
-
-    return () => clearInterval(timer);
-  }, []);
-
-  const formatTime = (time: number) => time.toString().padStart(2, '0');
-
   return (
     <section className="py-20">
       <div className="container mx-auto px-4">
@@ -62,20 +22,7 @@ export function TimeLimitSection() {
                 이번 달 한정으로 10개 패키지만 특별 할인가로 제공됩니다. 지금
                 바로 신청하세요!
               </p>
-              <div className="flex items-center gap-4 mb-8">
-                <div className="flex items-center gap-2">
-                  <Users className="w-5 h-5" />
-                  <span className="text-sm">남은 수량: 3개</span>
-                </div>
-                <div className="h-4 w-px bg-blue-400"></div>
-                <div className="text-sm">
-                  프로모션 종료까지:{' '}
-                  <span className="font-bold">
-                    {formatTime(timeLeft.hours)}:{formatTime(timeLeft.minutes)}:
-                    {formatTime(timeLeft.seconds)}
-                  </span>
-                </div>
-              </div>
+
               <Button
                 size="lg"
                 className="bg-white text-blue-600 hover:bg-blue-50 w-full md:w-auto"
