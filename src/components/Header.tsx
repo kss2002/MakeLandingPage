@@ -24,7 +24,14 @@ export function Header() {
               className="flex items-center gap-2"
             >
               <MessageCircle className="w-4 h-4" />
-              문의하기
+
+              <a
+                href="https://open.kakao.com/o/sLCJVlEh"
+                target="_blanck"
+                rel="noopener noreferrer"
+              >
+                문의하기
+              </a>
             </Button>
           </div>
         </div>
