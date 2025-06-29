@@ -10,9 +10,7 @@ export function Header() {
         <div className="flex items-center justify-between h-16">
           {/* 로고 */}
           <div className="flex items-center">
-            <a href="/" className="text-xl font-bold text-gray-900">
-              MakeLandingPage
-            </a>
+            MakeLandingPage
             <Package />
           </div>
 
@@ -27,7 +25,7 @@ export function Header() {
 
               <a
                 href="https://open.kakao.com/o/sLCJVlEh"
-                target="_blanck"
+                target="_blank"
                 rel="noopener noreferrer"
               >
                 문의하기

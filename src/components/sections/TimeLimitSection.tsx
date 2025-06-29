@@ -1,7 +1,7 @@
 "use client";
 
 import { Button } from "@/components/ui/Button";
-import { Clock, Users, ArrowRight } from "lucide-react";
+import { Clock, ArrowRight } from "lucide-react";
 
 export function TimeLimitSection() {
   return (

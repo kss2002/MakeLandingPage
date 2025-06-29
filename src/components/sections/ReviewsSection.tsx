@@ -1,26 +1,26 @@
-import { Star } from 'lucide-react';
+import { Star } from "lucide-react";
 
 export function ReviewsSection() {
   const reviews = [
     {
-      name: '김서연',
-      company: '스타트업 대표',
+      name: "김서연",
+      company: "스타트업 대표",
       content:
-        '전문적인 디자인과 빠른 제작 속도에 매우 만족했습니다. 특히 고객의 요구사항을 정확히 이해하고 반영해주셔서 감사합니다.',
+        "전문적인 디자인과 빠른 제작 속도에 매우 만족했습니다. 특히 고객의 요구사항을 정확히 이해하고 반영해주셔서 감사합니다.",
       rating: 5,
     },
     {
-      name: '이준호',
-      company: '마케팅 매니저',
+      name: "이준호",
+      company: "마케팅 매니저",
       content:
-        '랜딩 페이지 제작 후 전환율이 2배 이상 증가했습니다. 사용자 경험을 고려한 디자인과 최적화된 성능이 큰 도움이 되었습니다.',
+        "랜딩 페이지 제작 후 전환율이 2배 이상 증가했습니다. 사용자 경험을 고려한 디자인과 최적화된 성능이 큰 도움이 되었습니다.",
       rating: 5,
     },
     {
-      name: '박지민',
-      company: '브랜드 매니저',
+      name: "박지민",
+      company: "브랜드 매니저",
       content:
-        '다른 업체들과 비교했을 때 가성비가 정말 좋았습니다. 추가 수정도 빠르게 반영해주셔서 만족스러웠습니다.',
+        "다른 업체들과 비교했을 때 가성비가 정말 좋았습니다. 추가 수정도 빠르게 반영해주셔서 만족스러웠습니다.",
       rating: 5,
     },
   ];
@@ -50,7 +50,7 @@ export function ReviewsSection() {
                   />
                 ))}
               </div>
-              <p className="text-gray-600 mb-6 italic">"{review.content}"</p>
+              <p className="text-gray-600 mb-6 italic">{review.content}</p>
               <div>
                 <p className="font-semibold">{review.name}</p>
                 <p className="text-sm text-gray-500">{review.company}</p>

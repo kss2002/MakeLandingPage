@@ -20,7 +20,7 @@ export function HeroSection() {
             >
               <a
                 href="https://open.kakao.com/o/sLCJVlEh"
-                target="_blanck"
+                target="_blank"
                 rel="noopener noreferrer"
               >
                 카카오톡 문의하기
