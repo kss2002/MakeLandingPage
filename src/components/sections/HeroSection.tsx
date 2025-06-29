@@ -1,4 +1,4 @@
-import { Button } from '@/components/ui/Button';
+import { Button } from "@/components/ui/Button";
 
 export function HeroSection() {
   return (
@@ -18,14 +18,13 @@ export function HeroSection() {
               variant="kakao"
               className="hover:scale-105 transition-transform"
             >
-              카카오톡 문의하기
-            </Button>
-            <Button
-              variant="outline"
-              size="lg"
-              className="hover:scale-105 transition-transform"
-            >
-              서비스 살펴보기
+              <a
+                href="https://open.kakao.com/o/sLCJVlEh"
+                target="_blanck"
+                rel="noopener noreferrer"
+              >
+                카카오톡 문의하기
+              </a>
             </Button>
           </div>
         </div>
