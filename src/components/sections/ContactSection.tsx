@@ -1,47 +1,49 @@
-import { MessageCircle, Mail, Phone } from 'lucide-react';
+import { MessageCircle, Mail, Phone } from "lucide-react";
 import {
   Accordion,
   AccordionContent,
   AccordionItem,
   AccordionTrigger,
-} from '@/components/ui/accordion';
+} from "@/components/ui/accordion";
 
 export function ContactSection() {
   return (
     <section className="py-20">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16 animate-fade-in">
-          <h2 className="text-3xl font-bold mb-4">문의하기</h2>
-          <p className="text-gray-600 max-w-2xl mx-auto">
+          <h2 className="text-3xl font-bold mb-4">
             궁금한 점이 있으시다면 언제든지 문의해 주세요.
+          </h2>
+          <p className="text-gray-600 max-w-2xl mx-auto">
+            24시간 언제든지 문의하실 수 있습니다. 편하게 연락해 주세요.
           </p>
         </div>
 
         <div className="max-w-3xl mx-auto space-y-8">
           <div
             className="bg-white/80 backdrop-blur-sm p-6 rounded-lg shadow-sm animate-fade-in"
-            style={{ animationDelay: '100ms' }}
+            style={{ animationDelay: "100ms" }}
           >
             <h3 className="text-xl font-semibold mb-4">연락처</h3>
             <div className="space-y-4">
               <div className="flex items-center gap-3">
                 <MessageCircle className="h-5 w-5 text-blue-500" />
-                <span>카카오톡: @MakeLandingPage</span>
+                <span>카카오톡: @worldcoding2024</span>
               </div>
               <div className="flex items-center gap-3">
                 <Mail className="h-5 w-5 text-blue-500" />
-                <span>이메일: contact@makelandingpage.com</span>
+                <span>이메일: know.warehouse02@gmail.com</span>
               </div>
               <div className="flex items-center gap-3">
                 <Phone className="h-5 w-5 text-blue-500" />
-                <span>전화: 02-1234-5678</span>
+                <span>전화: 010-4044-5754</span>
               </div>
             </div>
           </div>
 
           <div
             className="bg-white/80 backdrop-blur-sm p-6 rounded-lg shadow-sm animate-fade-in"
-            style={{ animationDelay: '200ms' }}
+            style={{ animationDelay: "200ms" }}
           >
             <h3 className="text-xl font-semibold mb-4">자주 묻는 질문</h3>
             <Accordion type="single" collapsible className="w-full">

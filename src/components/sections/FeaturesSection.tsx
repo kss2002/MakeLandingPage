@@ -1,29 +1,28 @@
-import { motion } from 'framer-motion';
-import { CheckCircle2, Zap, Shield, BarChart3 } from 'lucide-react';
+import { CheckCircle2, Zap, Shield, BarChart3 } from "lucide-react";
 
 export function FeaturesSection() {
   const features = [
     {
       icon: <CheckCircle2 className="h-6 w-6 text-blue-500" />,
-      title: '전문적인 디자인',
+      title: "전문적인 디자인",
       description:
-        '최신 트렌드를 반영한 전문적인 디자인으로 브랜드 가치를 높입니다.',
+        "최신 트렌드를 반영한 전문적인 디자인으로 브랜드 가치를 높입니다.",
     },
     {
       icon: <Zap className="h-6 w-6 text-blue-500" />,
-      title: '빠른 제작',
-      description: '신속한 제작 프로세스로 빠른 시장 진입이 가능합니다.',
+      title: "빠른 제작",
+      description: "신속한 제작 프로세스로 빠른 시장 진입이 가능합니다.",
     },
     {
       icon: <Shield className="h-6 w-6 text-blue-500" />,
-      title: '안정적인 호스팅',
-      description: '안정적인 호스팅 서비스로 24/7 서비스 운영을 보장합니다.',
+      title: "안정적인 호스팅",
+      description: "안정적인 호스팅 서비스로 24/7 서비스 운영을 보장합니다.",
     },
     {
       icon: <BarChart3 className="h-6 w-6 text-blue-500" />,
-      title: '성과 분석',
+      title: "성과 분석",
       description:
-        '상세한 분석 도구로 마케팅 성과를 측정하고 개선할 수 있습니다.',
+        "상세한 분석 도구로 마케팅 성과를 측정하고 개선할 수 있습니다.",
     },
   ];
 

@@ -1,7 +1,7 @@
 export function Footer() {
   // Footer 컴포넌트는 랜딩 페이지의 하단에 위치하며, 사이트 정보와 저작권 정보를 표시합니다.
   return (
-    <footer className="bg-white/80 backdrop-blur-sm border-t">
+    <footer className="bg-white/50 backdrop-blur-sm ">
       <div className="container mx-auto px-4 py-8">
         <div className="flex flex-col items-center justify-center text-center">
           <div className="mb-4">
