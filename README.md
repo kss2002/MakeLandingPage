@@ -14,5 +14,3 @@ npm run dev
 yarn dev
 ```
 
-> 사이트
-> https://make-landing-page.vercel.app/
